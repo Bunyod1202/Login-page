@@ -1,0 +1,162 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+       url("../fonts/inter-v11-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/inter-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+       url("../fonts/inter-v11-latin-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/inter-v11-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+       url("../fonts/inter-v11-latin-600.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/inter-v11-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+       url("../fonts/inter-v11-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/inter-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Inter","Arial",sans-serif ;
+}
+
+.container {
+  width: 1240px;
+  margin:  0 auto;
+  padding: 0 20px;
+}
+.hero {
+  background-color: #E7E7E7;
+}
+.hero .card-group {
+  display: flex;
+
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.hero .card-group .card .banner-top {
+  padding: 55px 60px 0 60px ;
+}
+.hero .card-group .card-banner {
+  background-image: url("../image/Rectangle\ 6.png");
+  width: 570px;
+ border-radius: 20px;
+ margin-right: 12px;
+}
+.hero .card-group .card-banner .span {
+  border: 1px solid #FFFFFF;
+  border-radius: 41px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 5px 15px;
+  color: #fff;
+  display: inline-block ;
+  margin:0 0 60px 0;
+}
+.hero .card-group .card-banner .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  width: 389px;
+  margin: 0 0 20px 0;
+}
+.hero .card-group .card-banner .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 347px;
+  color: #fff;
+  margin: 0 0 203px 0;
+}
+.hero .card-group .card-banner .btn {
+  padding: 29px 145px;
+  background-color: #4DC490;
+  border-radius: 0px 0px 20px 20px;
+font-size: 18px;
+line-height: 23px;
+color: #fff;
+  display:block;
+  text-decoration: none;
+}
+.hero .card-group .card-form {
+  background-color: #fff;
+  width: 570px;
+
+  border-radius: 20px;
+  padding: 55px 60px 40px 60px;
+}
+.hero .card-group .card-form .title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000;
+  width: 428px;
+  margin: 0 0 70px 0 ;
+}
+.hero .card-group .card-form .input {
+  display: block;
+  width: 450px;
+  padding: 5px 10px 14px 0;
+  margin-bottom:25px ;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  
+}
+.hero .card-group .card-form .input:nth-child(4) {
+  margin-bottom: 64px;
+}
+.hero .card-group .card-form .input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+.hero .card-group .card-form .btn {
+  background-color: #655AF2;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 20px 149px;
+  border: none;
+  color: #fff;
+}
+.hero .card-group .card-form .text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  margin: 8px 0 0 0 ;
+  text-align: center;
+}
+.hero .card-group .card-form .text .link {
+color: #ff0000;
+}
