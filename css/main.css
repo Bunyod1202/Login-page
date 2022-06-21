@@ -119,17 +119,22 @@ color: #fff;
   margin: 0 0 70px 0 ;
   
 }
+
+.hero .card-group .card-form .input:nth-child(1) {
+margin: 0;
+}
 .hero .card-group .card-form .input {
   display: block;
   width: 450px;
   padding: 5px 10px 14px 0;
-  margin-bottom:25px ;
+  margin-top:25px ;
   border: none;
   border-bottom: 1px solid #000000;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   color: #000;
+  outline-color: #000;
   
 }
 .hero .card-group .card-form .input:nth-child(4) {
@@ -150,6 +155,7 @@ color: #fff;
   padding: 20px 149px;
   border: none;
   color: #fff;
+  margin-top: 25px;
 }
 .hero .card-group .card-form .text {
   font-weight: 400;
@@ -160,4 +166,20 @@ color: #fff;
 }
 .hero .card-group .card-form .text .link {
 color: #ff0000;
+}
+.input:not(:placeholder-shown):not(:focus):invalid {
+  border-bottom: 1px solid 
+  #F03535;
+  color: #F03535;
+}
+.input:not(:placeholder-shown):not(:focus):invalid + .label label {
+ color: #F03535;
+}
+.label{
+  text-align: right;
+  margin-top: 4px;
+  font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+color: transparent;
 }

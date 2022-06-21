@@ -25,10 +25,22 @@
           <div class="card card-form">
             <h2 class="title">Sign up for the course and get free  7 days</h2>
             <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
-              <input class="input" type="text" placeholder="Forst Name" name="forstName" aria-label="Forst Name" >
-               <input class="input" type="text" placeholder="Last Name" name="lastName" aria-label="Last Name" > 
-               <input class="input" type="email" placeholder="Email Address" name="email" aria-label="email" > 
-               <input class="input" type="password" placeholder="Password" name="password" aria-label="password" >
+              <input class="input" minlength="2" type="text" placeholder="Forst Name" name="forst_name" id="forst_name" >
+              <div class="label">
+                <label for="forst_name">First Name cannot be empty</label>
+              </div>
+               <input class="input" id="last_name" minlength="2" type="text" placeholder="Last Name" name="last_name" aria-label="Last Name" > 
+               <div class="label">
+                <label for="last_name">Last Name cannot be empty</label>
+              </div>
+               <input class="input" id="email" minlength="2" type="email" placeholder="Email Address" name="email" aria-label="email" > 
+               <div class="label">
+                <label for="email">Looks like this is not an email</label>
+              </div>
+               <input class="input" id="password" minlength="2" maxlength="8" type="password" placeholder="Password" name="password" aria-label="password" >
+               <div class="label">
+                <label for="password">Password cannot be empty</label>
+              </div>
              <button class="btn" type="submit">Claim your free trial</button>
             </form>
             <p class="text">By clicking the button, you are agreeing to our <a class="link" href="#">Terms and Services</a></p>
